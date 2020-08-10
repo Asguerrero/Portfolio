@@ -8,11 +8,11 @@ context = canvas.getContext('2d')
 canvas.height = window.innerHeight * 0.15;
 canvas.width = window.innerWidth * 0.98;
 
-canvas.addEventListener("mousedown", mouseDown);
-canvas.addEventListener("mouseup", mouseUp);
-canvas.addEventListener("mousemove", mouseMove);
+//canvas.addEventListener("mousedown", mouseDown);
+//canvas.addEventListener("mouseup", mouseUp);
+//canvas.addEventListener("mousemove", mouseMove);
 canvas.addEventListener("touchmove", mouseMove);
-canvas.addEventListener("touchend", mouseUp);
+//canvas.addEventListener("touchend", mouseUp);
 
 
 function mouseDown (event) {
