@@ -231,7 +231,6 @@ background-size: 100% 1.2em;
 .crazy-test{
   background-image: url("./Images/main-pattern.png");
   background-repeat: repeat;
-  background-color: red;
   height: 124px;
   width: 100%;
 }
