@@ -30,6 +30,12 @@ function update() {
 	
 }
 
+function clearCanvas (){
+	shouldPaint = true;
+	context.clearRect(0,0, canvas.width, canvas.height);
+	
+}
+
 function mouseDown (event) {
 	shouldPaint = true;
 	//context.clearRect(0,0, canvas.width, canvas.height);
