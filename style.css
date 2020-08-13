@@ -28,6 +28,12 @@ html{scroll-behavior:smooth}
     
 }
 
+.smallMargins
+{
+    margin:0.4rem 0rem
+    
+}
+
 .center-div{
     display: flex;
     justify-content: center;
@@ -153,7 +159,7 @@ html{scroll-behavior:smooth}
 }
 
 .perfil-image{
-  height: 15rem;
+  height: 27rem;
 }
 
 .meter{
@@ -278,6 +284,17 @@ background-size: 100% 1.2em;
   height: 25rem;
 }
 
+.circle{
+
+   border-radius: 50%;
+  padding: 5px;
+  overflow: hidden;
+
+  width: 20rem;
+  height: 20rem;
+
+}
+
 .circular-square {
   border-radius: 50%;
   padding: 5px;
@@ -348,6 +365,9 @@ background-size: 100% 1.2em;
   .explore-button{
     margin: 1rem;
   }
+  .eliminate{
+    display: none;
+  }
   .cursive{
     font-size: 5.8rem;
   }
@@ -380,6 +400,13 @@ grid-template-rows: repeat(2, auto);
 }
 
 
+.testBorder{
+ 
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+ 
+}
+
 .test-canvas{
   z-index: -1;
 }
@@ -387,6 +414,49 @@ grid-template-rows: repeat(2, auto);
 .test-div{
   width: 100%;
   height:400px;
+  border: 1px black solid
  
 }
 
+
+.standardHeight{
+  height:130%;
+ 
+}
+
+.square{
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem 2rem;
+  transition: all .1s ease-in-out;
+}
+
+.square:hover{
+  transform: scale(1.2);
+
+}
+
+.blue{
+  background-color:  #2D749F;
+}
+
+.black{
+  background-color: black;
+}
+
+.vinotinto{
+  background-color: red;
+}
+
+.smallsquare{
+  height: 2.9rem;
+  width: 2.9rem;
+  margin: 0.4rem 0.2rem;
+}
+
+.img-square{
+  width: 3rem;
+  height: 3rem;
+  margin: 0rem;
+
+}

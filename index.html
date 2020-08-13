@@ -15,7 +15,7 @@
 <body>
 
 	<!–– Home ––>
-	<section class="home-section">
+	<section class="home-section standardHeight flex-column">
 		
 		
 		<div class="flex-column expand section-margins">
@@ -30,34 +30,49 @@
 			</div>
 
 			<div class="center-div">
-				<h1>
-				  <a href="" class="typewrite" data-period="2000" data-type='[ "Desarrollo paginas web", "Soy creativa.", "Me apasiona el diseno.", "Puedo llevar tus ideas del papel al Internet", "Charlemos." ]'>
+				<h1 class="smallMargins">
+				  <a href="" class="typewrite" data-period="2000" data-type='[ "Desarrollo paginas web", "Me apasiona programar", "Soy creativa",  "Soy perfeccionista", "Puedo crear lo que necesitas", "Charlemos." ]'>
 				    <span class="wrap"></span>
 				  </a>
 				</h1>
 			</div>
 
-			<div>
-				<canvas id="gameCanvas" class="test-canvas"></canvas>
-				<script type="text/javascript" src="draw.js"></script>
+			<div class="expand center-div flex-column">
+
+				<div class="m-80 testBorder">
+					<canvas id="gameCanvas" class="test-canvas"></canvas>
+				</div>
+				<div class="flex-wrap">
 				
+				<div class="square blue" onclick="blue()">
+					<img  class="img-square" src="./Images/brush-white.png">
+				</div>
+				<div class="square black" onclick="black()" >
+					<img  class="img-square" src="./Images/brush-white.png">
+				</div>
+				<div class="square vinotinto" onclick="red()">
+					<img  class="img-square" src="./Images/brush-white.png">
+				</div>
+			
+				</div>
 			</div>
 
 			<div class="center-div">
-				<h3 class="center-text flex-wrap">
-					En el diseno de tu pagina, el pincel tambien lo llevas tu <br> Mueve el mouse o haz click por distintas partes de la pantalla y descubre lo que pasa
+				<h4 class="center-text flex-wrap smallMargins">
+					En el diseno de tu pagina el pincel tambien lo llevas tu. <br class="eliminate"> 
+					Moviendo el mouse o haciendo click, utiliza el lienzo para dibujar lo que quieras
 				 
-				</h3>
+				</h4>
 			</div>
 
 			<div class="flex-wrap">
 				<a class="explore-button center-div" href="#aboutMe">Descubre mas sobre mi <img src="./Images/arrow_down.png"></a>
-		<a class="explore-button center-div" onclick="clearCanvas()">
-			Limpia el lienzo
-		</a>
+				<a class="explore-button center-div" onclick="clearCanvas()">
+				Limpia el lienzo
+				</a>
 			</div>
 		
-		<div class="crazy-test expand"></div>
+		
 			
 
 		</div>
@@ -72,8 +87,11 @@
 	<section id="aboutMe">
 		
 		<div class="about-me-grid">
-			<div class="expand-screen center-div">
-				<img class="perfil-image" src="./Images/perfil.jpeg">
+			<div class="expand-screen center-div ">
+				<div class=" center-text circle">
+				<img class="perfil-image" src="./Images/Profile/test1.jpeg">
+					
+				</div>
 			</div>
 
 			<div class="about-me-height expand-screen paper-background">
@@ -182,7 +200,7 @@
 				</div>
 				
 				<div class="flex-wrap expand center-div">
-					<a class="explore-button m-40 width-flexible center-div" href="#projects">Revisa mi proceso de trabajo<img src="./Images/arrow_down.png"></a>
+					<a class="explore-button m-40 width-flexible center-div" href="#process">Revisa mi proceso de trabajo<img src="./Images/arrow_down.png"></a>
 				</div>
 
 			</div>
@@ -290,7 +308,7 @@
 					</div>
 					<div class="flex-wrap" >
 						<a class="explore-button m-20 center-div" href="https://smart-brain-vg.herokuapp.com/">Vistar pagina<img src="./Images/arrow_down.png"></a>
-						<a class="explore-button m-20 center-div" href="#projects">Ver codigo<img src="./Images/arrow_down.png"></a>
+						<a class="explore-button m-20 center-div" href="https://github.com/Asguerrero/face-recognitionapp-api">Ver codigo<img src="./Images/arrow_down.png"></a>
 						
 					</div>
 
@@ -333,17 +351,17 @@
 				<img  class="contact-images" src="./Images/tech/githublogo.png">
 			</a>
 			<a href="">
-				<img class="contact-images" src="./Images/tech/facebook.png">
-			</a>
-			<a href="">
 				<img class="contact-images" src="./Images/tech/instagram.png">
 			</a>
+			<a href="">
+				<img class="contact-images" src="./Images/tech/facebook.png">
+			</a>
 			
-
-			
-
 		</div>
+
+		<div class="crazy-test expand"></div>
 	</section>
+
 
 	<footer class="center-div">
 		<img class="footer-image" src="./Images/copyright.png">
@@ -351,6 +369,6 @@
 	</footer>
 
 	
-
+<script type="text/javascript" src="draw.js"></script>
 </body>
 </html>
