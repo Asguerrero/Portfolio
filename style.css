@@ -352,6 +352,10 @@ background-size: 100% 1.2em;
 }
 
 .flex-wrap-brush{
+ display: flex;
+}
+
+.flex-wrap-brush{
   display: flex;
 }
 
