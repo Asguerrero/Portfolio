@@ -47,7 +47,7 @@ function blue(){
 }
 
 function black(){
-	color = "#010101"
+	color = "#5D6C70"
 }
 
 function red(){
