@@ -25,8 +25,13 @@ html{scroll-behavior:smooth}
 
 .smallMargins
 {
-    margin:0.4rem 1rem
+    margin:0.4rem 1rem;
     
+    
+}
+
+.adjusted-text{
+  font-size: 1.1rem;
 }
 
 .medium-weight{
@@ -346,6 +351,10 @@ background-size: 100% 1.2em;
 
 }
 
+.flex-wrap-brush{
+  display: flex;
+}
+
 .extra-padding{
   padding: 1rem;
 }
@@ -427,13 +436,23 @@ display: grid;
 }
 @media only screen and (max-width: 900px){
 
+  .explore-button-no-margins{
+    padding: 1rem;
+    font-size: 1.09rem;
+  }
+  .explore-button-adjusted{
+    padding: 1rem;
+    font-size: 1.09rem;
+
+  }
+
   .about-me-grid{
     display: flex;
     flex-wrap: wrap;
   }
 
   .some-margins{
-    margin: 4.5rem 0rem;
+    margin: 5.5rem 0rem;
   }
 
 .button-m-40{
@@ -458,12 +477,14 @@ display: grid;
   }
   .explore-button{
     margin: 1rem;
+    padding: 1rem;
+    font-size: 1.09rem;
   }
   .eliminate{
     display: none;
   }
   .cursive{
-    font-size: 5.2rem;
+    font-size: 5rem;
   }
 
   .patua{
@@ -473,6 +494,7 @@ display: grid;
 
   .line{
      height: 4.5rem;
+     font-size: 1.07rem;
   }
 
   .process-grid{
