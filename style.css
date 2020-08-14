@@ -17,16 +17,7 @@ html{scroll-behavior:smooth}
     text-align: center;
 }
 
-.logo{
-    width: 3rem;
-    height: 3rem;
-    border: solid;
-    border-color:  #2D749F;
-    position: fixed;
-    margin: 0.5rem;
-    font-size: 1.3rem;
-    
-}
+
 
 .m-80-optional{
   width: 80%;
