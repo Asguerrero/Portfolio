@@ -51,7 +51,7 @@ function black(){
 }
 
 function red(){
-	color = "#C31123"
+	color = "#063B4D"
 }
 
 function paint(){

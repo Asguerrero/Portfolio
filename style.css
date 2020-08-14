@@ -28,10 +28,18 @@ html{scroll-behavior:smooth}
     
 }
 
+.m-80-optional{
+  width: 80%;
+}
+
 .smallMargins
 {
-    margin:0.4rem 0rem
+    margin:0.4rem 1rem
     
+}
+
+.medium-weight{
+font-weight: 500;
 }
 
 .center-div{
@@ -56,7 +64,7 @@ html{scroll-behavior:smooth}
 }
 
 .larger-text-4{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 
 }
 
@@ -87,23 +95,26 @@ html{scroll-behavior:smooth}
 
 .patua{
  font-family: 'Roboto', sans-serif;
- font-size: 6rem;
+ font-size: 5.5rem;
  margin: 10px 0px;
   color: #5D6C70;
+  font-weight: lighter;
 }
 
 
 
 .cursive{
-  font-family: 'Caveat', cursive;
-  font-size: 6.4rem;
+  
+  font-size: 6.2rem;
   margin: 10px 0px;
   color: #2D749F;
+  font-weight: bold;
 }
 
 .cursive-text{
   font-family: 'Caveat', cursive;
   font-size: 2rem;
+
 }
 
 
@@ -189,10 +200,6 @@ html{scroll-behavior:smooth}
   background-color: #A6B7F5;
 }
 
-.rowdies{
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
 
 .m-80{
   width: 80%;
@@ -244,10 +251,10 @@ html{scroll-behavior:smooth}
 }
 
 .parragraph{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
-  margin: 0.6rem;
-  line-height: 1.4;
+  margin: 0.8rem;
+  line-height: 1.5;
 }
 
 .paper-background{
@@ -273,16 +280,27 @@ background-size: 100% 1.2em;
 
 .borders-solid{
   
-  border-left:  4px #2D749F solid;
+  border-left:  6px #2D749F solid;
   
 }
 
 .borders-solid-right{
-  border-right:  4px #2D749F solid;
+  border-right:  6px #2D749F solid;
 }
 
 .borders-solid-left{
-  border-left:  4px #2D749F solid;
+  border-left:  6px #2D749F solid;
+}
+
+.hobbies-sub-grid{
+  display: grid;
+  grid-template-rows: 60% 40%;
+  justify-items: center;
+  align-items: center;
+}
+
+.add-margins{
+  margin: 2rem;
 }
 
 .line{
@@ -290,7 +308,7 @@ background-size: 100% 1.2em;
   background-color: #5D6C70;
   color: white;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   font-size: 1.2rem;
 }
 
@@ -370,15 +388,23 @@ background-size: 100% 1.2em;
   margin-bottom: 4rem;
 }
 
+.button-m-40{
+width: 45%;
+}
 
 .explore-button-no-margins{
    text-decoration: none;
    color: white;
    background-color:  #2D749F;
-   padding: 0.8rem;
+   padding: 0.9rem;
    border-radius: 10px;
    margin: 0.5rem;
 
+}
+
+
+.button-m-25{
+  width: 25%;
 }
 
 .process-grid{
@@ -390,6 +416,9 @@ background-size: 100% 1.2em;
   justify-content: center;
 }
 
+.extra-margins{
+  margin: 2rem 0rem;
+}
 
 .project-grid{
 display: grid;
@@ -412,6 +441,18 @@ display: grid;
     flex-wrap: wrap;
   }
 
+  .some-margins{
+    margin: 4.5rem 0rem;
+  }
+
+.button-m-40{
+  width: 60%;
+  padding: 1.2rem;
+}
+
+.m-80-optional{
+  width: 100%;
+}
   .expand-screen{
     width: 100%;
   }
@@ -431,7 +472,7 @@ display: grid;
     display: none;
   }
   .cursive{
-    font-size: 5.8rem;
+    font-size: 5.2rem;
   }
 
   .patua{
@@ -459,6 +500,21 @@ display: grid;
 
 .width-flexible{
   width: 60%
+}
+
+.extra-margins{
+  margin: 3rem 0rem;
+}
+
+.change-mobile{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button-m-25{
+  width: 85%;
 }
 
 }
@@ -509,7 +565,7 @@ display: grid;
 }
 
 .vinotinto{
-  background-color: #8C281F
+  background-color: #063B4D
 }
 
 .smallsquare{
@@ -562,7 +618,3 @@ display: grid;
   opacity: 1;
 }
 
-
-.button-m-25{
-  width: 25%;
-}
