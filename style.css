@@ -437,6 +437,8 @@ width: 45%;
 display: grid;
   grid-template-columns: 32% 32% 32%;
   grid-gap: 2px;
+  grid-row-gap: 40px;
+   
   justify-items: center;
   justify-content: center;
   justify-content: center;
